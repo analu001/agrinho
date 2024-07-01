@@ -1,0 +1,124 @@
+foot{
+    --color-de-fundo--: #002C66;
+    --cor-de-texto--: #DB6922;
+    --princ--: #ffffff;
+}
+header { 
+    background-color: var(--princ--);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+} 
+.title {
+    margin-right: 10px;
+    color: var(--color-de-fundo--)
+}
+.paragrafo {
+    width: 47px;
+    padding-left: 10px;
+    border-width: 0 0 0 2px;
+    padding-top: 7px;
+
+}
+
+
+
+.Reabilitacao { display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #DB6922;
+    background-color: white;
+padding: 5px;
+}
+
+footer{ 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+} 
+
+
+@media screen and (min-width: 1024px){
+    .paragrafo{
+        width: 1%;
+    }
+}
+.perneta {
+    width: 30%;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 20px;
+    
+}
+
+
+section{
+    background-color: var(--color-de-fundo--);
+    display: flex;
+    justify-content: space-around;
+    background: #002C66;
+    color: white;
+    padding:155px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: auto;
+
+}
+
+image{
+
+    border-radius: 100px;
+    float: right;
+
+}
+
+
+.legs{
+    font-size: 25px ;
+    margin-right: 30px;
+    margin-top: 30px;
+   color:#002C66;
+   font-family: 'Poppins';
+   
+   }
+h3{
+    font-size: 25px ;
+    margin-right: 100px;
+    margin-top: 30px;
+
+}
+.corpo{
+
+    margin-right: 300px;
+    font-size: 28px;
+}
+
+   h2{
+
+font-family: Impact, fantasy;
+font-size: 30px;
+margin-right:20 ;
+margin-top: 10px;
+
+   } 
+
+   .escrever{
+   font-family: 'Poppins';
+font-size: 20px;
+margin-right:20 ;
+text-align: 
+margin-top: 10px;
+   height: 100px;
+    width: 200px;
+
+}
